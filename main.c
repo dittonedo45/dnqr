@@ -94,7 +94,7 @@ int main ( signed Argsc, char *( Args[] ) )
  ret = archive_write_set_format ( ar, ARCHIVE_FORMAT_ISO9660 );
  if( ARCHIVE_OK != ret )
   return 1;
- ret = archive_write_open_filename ( ar, "./SADCvac.iso" );
+ ret = archive_write_open_filename ( ar, "/sdcard/SADCvac.iso" );
  if( ARCHIVE_OK != ret )
   return 1;
 
